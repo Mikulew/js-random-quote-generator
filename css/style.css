@@ -84,11 +84,15 @@ html {
   border-radius: var(--borderRadius);
   cursor: pointer;
   padding: 20px;
-  margin-bottom: 50px;
+  margin: 50px;
 }
 
 #button:hover {
   color: var(--yangColor);
   background-color: var(--yinColor);
   border: 5px solid #d8c21e;
+}
+
+.icon {
+  color: var(--yangColor);
 }
