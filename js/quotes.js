@@ -76,7 +76,7 @@ export const quotes = [
     "quote": "A computer is like a violin. You can imagine a novice trying ﬁrst a phonograph and then a violin. The latter, he says, sounds terrible. That is the argument we have heard from our humanists and most of our computer scientists. Computer programs are good, they say, for particular purposes, but they aren’t ﬂexible. Neither is a violin, or a typewriter, until you learn how to use it."
   },
   {
-    "author": "<inus Torvalds",
+    "author": "Linus Torvalds",
     "quote": "Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program."
   },
   {
@@ -98,5 +98,9 @@ export const quotes = [
   {
     "author": "Martin Gore",
     "quote": "When I write a song, I always start on acoustic guitar, because that's a good test of a song, when it's really open and bare. You can often mislead yourself if you start with computers and samples and programming because you can disguise a bad song."
+  },
+  {
+    "author": "Linus Torvalds",
+    "quote": "Talk is cheap. Show me the code."
   }
 ]

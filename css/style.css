@@ -1,12 +1,12 @@
 :root {
   --yangColor: #d8c21e;
   --yinColor: #111111;
-  --borderRadius: 10px;
+  --transition: 0.4s;
 }
 
 html {
   font-size: 2vmin;
-  font-family: 'Fruktur', cursive;
+  font-family: 'Playfair Display', serif;
   box-sizing: border-box;
   width: 100%;
   height: 100%;
@@ -23,11 +23,7 @@ html {
 .canvas {
   position: relative;
   height: 100vh;
-  background: linear-gradient(
-    to bottom,
-    var(--yangColor) 0 45%,
-    var(--yinColor) 45% 100%
-  );
+  background: var(--yinColor);
 }
 
 
@@ -40,59 +36,122 @@ html {
   flex-flow: column nowrap;
   justify-content: space-between;
   align-items: center;
-  border: 3px solid var(--yangColor);
-  border-radius: var(--borderRadius);
-  width: 50vw;
+  width: 75%;
   min-height: 80vmin;
   padding: 20px;
-  background-color: var(--yinColor);
 }
 
-.container::before {
+.box {
   position: absolute;
-  content: " ";
-  z-index: -1;
-  top: 5px;
-  left: 5px;
-  right: 5px;
-  bottom: 5px;
-  border: 5px solid #d8c21e;
-  border-radius: var(--borderRadius);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 95%;
+  min-height: 175px;
+  transform-style: preserve-3d;
+  perspective: 2000px;
+  text-align: center;
+  background-color: transparent;
+  color: var(--yangColor);
+  border: 1px solid var(--yangColor);
+  transition: var(--transition);
 }
 
-.paragraph {
+.box::after, .box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
 }
 
-.paragraph_quote {
-  font-size: 2rem;
+.box::before {
+  border-top: 20px solid var(--yangColor);
+  border-left: 20px solid var(--yangColor);
+}
+
+.box::after {
+  border-bottom: 20px solid var(--yangColor);
+  border-right: 20px solid var(--yangColor);
+}
+
+.box:hover {
+  transform: translate(-50%, -50%) rotateY(-20deg) skewY(3deg);
+}
+
+.box:hover .text {
+  transform: rotateY(20deg) skewY(-3deg);
+}
+
+.icon {
+  position: absolute;
+  font-size: 25px;
+  height: 50px;
+  width: 50px;
+  line-height: 50px !important;
+  background-color: var(--yangColor);
+  color: var(--yinColor);
+  z-index: 1;
+}
+
+.icon-left {
+  bottom: 0;
+  right: 0;
+}
+
+.icon-right {
+  left: 0;
+  top: 0;
+}
+
+.text {
+  display: grid;
+  align-items: center;
+  color: var(--yinColor);
+  left: -30px;
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+  height: calc(100% - 60px);
+  padding: 65px;
+  transition: var(--transition);
+}
+
+#quote {
+  font-size: 24px;
   color: var(--yangColor);
 }
 
-.paragraph_author {
-  font-size: 3rem;
-  color: var(--yinColor);
-  background-color: var(--yangColor);
-  border-radius: var(--borderRadius);
-  padding: 20px;
+#author {
+  position: absolute;
+  bottom: -25px;
+  left: -10px;
+  font-size: 30px;
+  background: var(--yinColor);
+  margin-bottom: 5px;
+  border: 1px solid var(--yangColor);
+  padding: 10px;
+  z-index: 2;
 }
 
 #button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
   font-size: 2rem;
-  width: 35%;
+  font-weight: 700;
+  width: 250px;
   background-color: var(--yangColor);
   border: none;
-  border-radius: var(--borderRadius);
   cursor: pointer;
   padding: 20px;
-  margin: 50px;
+  border: 5px solid transparent;
 }
 
 #button:hover {
   color: var(--yangColor);
   background-color: var(--yinColor);
   border: 5px solid #d8c21e;
-}
-
-.icon {
-  color: var(--yangColor);
 }
