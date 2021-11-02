@@ -22,7 +22,6 @@ function displayQuote(index) {
 
 button.addEventListener("click", () => {
   counter += 1;
-  console.log(limit);
   if (counter <= limit) {
     displayQuote(counter);
   } else {
