@@ -74,5 +74,29 @@ export const quotes = [
   {
     "author": "Marvin Minsky",
     "quote": "A computer is like a violin. You can imagine a novice trying ﬁrst a phonograph and then a violin. The latter, he says, sounds terrible. That is the argument we have heard from our humanists and most of our computer scientists. Computer programs are good, they say, for particular purposes, but they aren’t ﬂexible. Neither is a violin, or a typewriter, until you learn how to use it."
+  },
+  {
+    "author": "<inus Torvalds",
+    "quote": "Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program."
+  },
+  {
+    "author": "James H. Clark",
+    "quote": "It's very hard to explain to people who don't program, but the object-oriented programming system made programming the Mac and iPhone so easy."
+  },
+  {
+    "author": "John Carmack",
+    "quote": "Low-level programming is good for the programmer's soul."
+  },
+  {
+    "author": "Brian Kernighan",
+    "quote": "Even though most people won't be directly involved with programming, everyone is affected by computers, so an educated person should have a good understanding of how computer hardware, software, and networks operate."
+  },
+  {
+    "author": "Gabe Newell",
+    "quote": "Ninety percent of games lose money; 10 percent make a lot of money. And there's a consistency around the competitive advantages you create, so if you can actually learn how to do the art, the design, and the programming, you would be consistently very profitable."
+  },
+  {
+    "author": "Martin Gore",
+    "quote": "When I write a song, I always start on acoustic guitar, because that's a good test of a song, when it's really open and bare. You can often mislead yourself if you start with computers and samples and programming because you can disguise a bad song."
   }
 ]
