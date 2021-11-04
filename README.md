@@ -4,6 +4,7 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Demo](#demo)
+* [Resources](#resources)
 
 ## General info
 
@@ -23,3 +24,9 @@ P.S. I know the word *random* is only in the name. The quotes iterate sequential
 ## Demo
 
 - [see here](https://mikulew.github.io/js-random-quote-generator/)
+
+## Resources
+
+- [7 Great Programming Quotes](https://dev.to/jeremycmorgan/7-great-programming-quotes-o95)
+- [16 Best Programming Quotes](https://dzone.com/articles/best-programming-jokes-amp-quotes)
+- [100 Funny Programmer Quotes](https://betterprogramming.pub/101-funny-programmer-quotes-76c7f335b92d)
