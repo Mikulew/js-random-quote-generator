@@ -18,7 +18,7 @@ P.S. I know the word *random* is only in the name. The quotes iterate sequential
 ## Technologies
 
 * HTML5
-* CSS3 (Font Awesome 5)
+* CSS3 (Font Awesome 5, RWD)
 * JavaScript (ES6+)
 
 ## Demo
@@ -30,3 +30,4 @@ P.S. I know the word *random* is only in the name. The quotes iterate sequential
 - [7 Great Programming Quotes](https://dev.to/jeremycmorgan/7-great-programming-quotes-o95)
 - [16 Best Programming Quotes](https://dzone.com/articles/best-programming-jokes-amp-quotes)
 - [100 Funny Programmer Quotes](https://betterprogramming.pub/101-funny-programmer-quotes-76c7f335b92d)
+- [goodreads](https://www.goodreads.com/quotes/tag/programming)
