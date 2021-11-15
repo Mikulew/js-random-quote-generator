@@ -106,5 +106,13 @@ export const quotes = [
   {
     "author": "John Woods",
     "quote": "Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live."
+  },
+  {
+    "author": "Filipe Fortes",
+    "quote": "Debugging is like being the detective in a crime movie where you are also the murder."
+  },
+  {
+    "author": "Rich Hickey",
+    "quote": "Programming is not about typing, it's about thinking."
   }
 ]
