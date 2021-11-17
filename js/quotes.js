@@ -61,7 +61,7 @@ export const quotes = [
   },
   {
     "author": "Alan J. Perlis",
-    "quote": "A language that doesn't affect the way you think about programming is not worth knowing"
+    "quote": "A language that doesn't affect the way you think about programming is not worth knowing."
   },
   {
     "author": "Alan Kay",
