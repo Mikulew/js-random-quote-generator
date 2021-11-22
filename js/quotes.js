@@ -114,5 +114,9 @@ export const quotes = [
   {
     "author": "Rich Hickey",
     "quote": "Programming is not about typing, it's about thinking."
+  },
+  {
+    "author": "Harold Abelson",
+    "quote": "Programs must be written for people to read, and only incidentally for machines to execute."
   }
 ]
