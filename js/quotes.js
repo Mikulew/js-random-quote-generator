@@ -118,5 +118,9 @@ export const quotes = [
   {
     "author": "Harold Abelson",
     "quote": "Programs must be written for people to read, and only incidentally for machines to execute."
+  },
+  {
+    "author": "Robert Noyce",
+    "quote": "After you become reconciled to the nanosecond, computer operations are conceptually fairly simple."
   }
 ]
