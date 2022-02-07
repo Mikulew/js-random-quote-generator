@@ -122,5 +122,9 @@ export const quotes = [
   {
     "author": "Robert Noyce",
     "quote": "After you become reconciled to the nanosecond, computer operations are conceptually fairly simple."
+  },
+  {
+    "author": "Damian Conway",
+    "quote": "Documentation is a love letter that you write to your future self."
   }
 ]
