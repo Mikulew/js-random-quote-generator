@@ -126,5 +126,9 @@ export const quotes = [
   {
     "author": "Damian Conway",
     "quote": "Documentation is a love letter that you write to your future self."
+  },
+  {
+    "author": "Pete Cordell",
+    "quote": "Telling a programmer there's already a library to do X is like telling a songwriter there's already a song about love."
   }
 ]
