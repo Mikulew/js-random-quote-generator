@@ -134,5 +134,9 @@ export const quotes = [
   {
     "author": "Burt Rutan",
     "quote": "Testing leads to failure, and failure leads to understanding."
+  },
+  {
+    "author": "John Constable",
+    "quote": "We see nothing until we understand it."
   }
 ]
