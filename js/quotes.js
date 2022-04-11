@@ -138,5 +138,9 @@ export const quotes = [
   {
     "author": "John Constable",
     "quote": "We see nothing until we understand it."
+  },
+  {
+    "author": "Ted Nelson",
+    "quote": "Any fool can use a computer. Many do."
   }
 ]
