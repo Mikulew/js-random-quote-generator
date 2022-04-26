@@ -142,5 +142,9 @@ export const quotes = [
   {
     "author": "Ted Nelson",
     "quote": "Any fool can use a computer. Many do."
+  },
+  {
+    "author": "Joseph Weizenbaum",
+    "quote": "A computer will do what you tell it to do, but that may be much different from what you had in mind."
   }
 ]
