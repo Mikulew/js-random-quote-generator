@@ -146,5 +146,9 @@ export const quotes = [
   {
     "author": "Joseph Weizenbaum",
     "quote": "A computer will do what you tell it to do, but that may be much different from what you had in mind."
+  },
+  {
+    "author": "Bill Gates",
+    "quote": "The computer was born to solve problems that did not exist before."
   }
 ]
