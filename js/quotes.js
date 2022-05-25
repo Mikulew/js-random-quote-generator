@@ -150,5 +150,9 @@ export const quotes = [
   {
     "author": "Bill Gates",
     "quote": "The computer was born to solve problems that did not exist before."
+  },
+  {
+    "author": "Keith Braithwaite",
+    "quote": "It’s a curious thing about our industry: not only do we not learn from our mistakes, but we also don’t learn from our successes."
   }
 ]
