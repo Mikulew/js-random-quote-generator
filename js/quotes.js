@@ -154,5 +154,9 @@ export const quotes = [
   {
     "author": "Keith Braithwaite",
     "quote": "It’s a curious thing about our industry: not only do we not learn from our mistakes, but we also don’t learn from our successes."
+  },
+  {
+    "author": "Thomas A. Edison",
+    "quote": "I have not failed. I've just found 10,000 ways that won't work."
   }
 ]
